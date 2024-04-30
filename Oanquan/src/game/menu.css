@@ -8,7 +8,6 @@
     -fx-border-radius: 15px 225px 255px 15px;
     -fx-border-style: solid;
     -fx-border-width: 2px;
-    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 15, 28, 25, -18);
     -fx-box-sizing: border-box;
     -fx-text-fill: #41403e;
     -fx-cursor: hand;
@@ -24,6 +23,7 @@
     -fx-border-color: transparent;
     -fx-user-select: none;
     -fx-touch-action: manipulation;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 2, 8, 8, -5);
 }
 
 .button:hover {
@@ -31,9 +31,6 @@
     -fx-translate-y: 2;
 }
 
-.button:focused {
-    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 2, 8, 4, -6);
-}
 
 .root {
     -fx-background-image: url('image/menu.jpg');
